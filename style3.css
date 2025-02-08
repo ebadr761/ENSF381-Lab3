@@ -38,23 +38,19 @@ margin: 5px; background-color: lightblue; border: 1px solid darkblue; text-align
     display: flex;
     background-color: #333;
     color: white;
-   }
-
-   .nav-item {
-    flex: 1;
-    width: 200px;
     padding: 10px;
-    display: block;
-    align-items: center;
-   }
-   .nav-hover {
-    opacity: 0.6;
-   }
-   a {
+    font-size: 18px;
+}
+
+.nav-item {
+        padding: 10px;
+        cursor: pointer;
+}
+
+.nav-item a {
     color: white;
-    font-style: normal;
     text-decoration: none;
-   }
+}
 
    .dropdown {
     display: none;
