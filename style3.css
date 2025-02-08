@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.container {
+.Container {
     display: flex;
 border: 2px solid black;
     padding: 10px;
@@ -9,32 +8,13 @@ padding: 20px;
 margin: 5px; background-color: lightblue; border: 1px solid darkblue; text-align: center;
 }
 .item img {
-=======
-.Container {
-    display: flex;
-    border: 2px solid black;
-    padding: 10px;
-   }
-   .item {
-    flex: 1;
-    padding: 20px;
-    margin: 5px;
-    background-color: lightblue;
-    border: 1px solid darkblue;
-    text-align: center;
-   }
-   .item img {
->>>>>>> 3b9fde1 (first commit)
     width: 100px;
     height: 100px;
     display: block;
     margin: 0 auto 10px;
-<<<<<<< HEAD
 }
-=======
-   }
 
-   .navigation-bar {
+.navigation-bar {
     display: flex;
     background-color: #333;
     color: white;
@@ -43,21 +23,37 @@ margin: 5px; background-color: lightblue; border: 1px solid darkblue; text-align
 }
 
 .nav-item {
-        padding: 10px;
-        cursor: pointer;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .nav-item a {
     color: white;
     text-decoration: none;
 }
+.nav-item:hover {
+    background-color: #bdbbbb;
+}
 
-   .dropdown {
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0%;
     background-color: white;
+    color: black;
     min-width: 200px;
-   }
->>>>>>> 3b9fde1 (first commit)
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-item a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.dropdown-item a:hover {
+    background-color: #bdbbbb; 
+}
